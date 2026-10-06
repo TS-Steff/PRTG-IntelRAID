@@ -183,9 +183,9 @@ privileges and ignores a new trigger while the previous instance is still
 running.
 
 Alternatively, import `RSTe\PRTG-IntelRSTe-Task.xml` into Task Scheduler and
-replace the placeholder Push URL with the URL of the PRTG sensor. Verify the
-script path in the task action after import. Do not save a real Push URL in the
-repository.
+replace the placeholder Push URL with the URL of the PRTG sensor. The template
+uses `C:\sm-it.ch\scripts\RSTe\PRTG-IntelRSTe.ps1`. Verify this path after
+import and do not save a real Push URL in the repository.
 
 ### RSTe PRTG lookups
 
