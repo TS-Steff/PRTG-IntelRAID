@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueLookup id="sm-it.intelrste.volumeerrors" desiredValue="0" undefinedState="Error" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PaeValueLookup.xsd">
+  <Lookups>
+    <Range state="OK" from="0" to="0">No volume errors</Range>
+    <Range state="Error" from="1" to="2147483647">Volume error(s)</Range>
+  </Lookups>
+</ValueLookup>

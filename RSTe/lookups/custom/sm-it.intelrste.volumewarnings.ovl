@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueLookup id="sm-it.intelrste.volumewarnings" desiredValue="0" undefinedState="Warning" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PaeValueLookup.xsd">
+  <Lookups>
+    <Range state="OK" from="0" to="0">No volume warnings</Range>
+    <Range state="Warning" from="1" to="2147483647">Volume warning(s)</Range>
+  </Lookups>
+</ValueLookup>
