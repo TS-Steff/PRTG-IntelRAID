@@ -3,6 +3,17 @@
 PowerShell monitors for Intel software RAID with a **PRTG HTTP Push Data Advanced Sensor**.
 Monitoring is available for both **Intel VROC** and legacy **Intel RSTe** systems.
 
+## Background
+
+We developed these monitors to integrate Intel RAID health into our central
+PRTG monitoring. Initially created for Intel VROC, the project now also
+supports older Intel RSTe installations.
+
+For background on the monitoring approach and the differences between
+the two implementations, see our blog post (German):
+
+[Intel RAID mit PRTG überwachen: VROC und RSTe](https://sm-it.ch/blog/intel-vroc-prtg-raid-monitoring)
+
 ## Repository structure
 
 ```text
